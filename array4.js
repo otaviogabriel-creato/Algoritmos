@@ -3,7 +3,7 @@ let t = array.length
 let maior = null
 
 
-for(let i = 0;i <= t;i++){
+for(let i = 0;i < t;i++){
     array[i]
     if(maior == null){
         maior = array[i]
